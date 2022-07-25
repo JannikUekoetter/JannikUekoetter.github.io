@@ -20,11 +20,11 @@ author: Jannik Uekötter
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
+  About: "aboutme"
+  Work:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Contact: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -51,7 +51,7 @@ social-network-links:
   E-Mail: "uekoetter@protonmail.com"
   rss: true # remove this line if you don't want to show an RSS link at the bottom
   github: JannikUekoetter
-  LinkedIn: daattali
+  LinkedIn: https://www.linkedin.com/in/jannik-uek%C3%B6tter-177a7019b/
 
 #  medium: yourname
 #  reddit: yourname
@@ -91,7 +91,6 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -244,7 +243,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
